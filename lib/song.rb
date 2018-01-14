@@ -82,10 +82,7 @@ class Song
     def self.destroy_all
         @@all = []
     end
-=======
     end
-
->>>>>>> 2433de30b38e40e7fb52e9818131dd72cc70be22
 
 end
 
