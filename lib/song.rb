@@ -7,7 +7,6 @@ class Song
         @@all
     end
 
-<<<<<<< HEAD
     def save
         self.class.all << self
     end
@@ -16,20 +15,18 @@ class Song
         song = self.new
         song.save
         song
-=======
+
   def save
     self.class.all << self
   end
   
      def self.create
         @@all << self.new
->>>>>>> 2433de30b38e40e7fb52e9818131dd72cc70be22
     end
     
     def self.new_by_name(name)
         song = self.new
         song.name = name
-<<<<<<< HEAD
         song
     end
     
@@ -81,7 +78,6 @@ class Song
     
     def self.destroy_all
         @@all = []
-    end
     end
 
 end
